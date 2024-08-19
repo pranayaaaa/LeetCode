@@ -6,7 +6,7 @@ In this repository, I will be solving one LeetCode problem every day. The goal i
 # Structure
 Each day's solution will be organized in the folder named by the problem's category.
 Inside the folder, you will find:
-Question that I'll be solving.
+Question link that I'll be solving.
 The implementation of the solution.
 
 # How to Use
