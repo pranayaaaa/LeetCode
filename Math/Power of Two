@@ -6,9 +6,15 @@ class Solution {
         if(n==0){
             return false;
         }
-        else if(n==1){
-            return true;
+        while(n>0){
+            if(n==1){
+                return true;
+            }
+            if(n%2!=0){
+                break;
+            }
+            n/=2;
         }
-       return n%2==0?true:false;
+        return false;
     }
 }
