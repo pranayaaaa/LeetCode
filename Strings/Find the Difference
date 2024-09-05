@@ -1,0 +1,14 @@
+https://leetcode.com/problems/find-the-difference/description/?envType=problem-list-v2&envId=sorting&difficulty=EASY
+
+class Solution {
+    public char findTheDifference(String s, String t) {
+        char added = 0;
+        for (int i = 0; i < s.length(); i++) {
+            added ^= s.charAt(i);
+        }
+        for (int i = 0; i < t.length(); i++) {
+            added ^= t.charAt(i);
+        }
+        return added;
+    }
+}
