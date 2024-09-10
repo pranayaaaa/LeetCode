@@ -1,7 +1,7 @@
 # LeetCode Challenge
 
 # About
-In this repository, I will be solving one LeetCode problem every day. The goal is to consistently improve my problem-solving skills. I'll be using Java for solving problems.
+In this repository, I will be solving one LeetCode problem every day. The goal is to consistently improve my problem-solving skills. I'll be using Java most of the times for solving problems.
 
 # Structure
 Each day's solution will be organized in the folder named by the problem's category.
