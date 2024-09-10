@@ -1,0 +1,11 @@
+https://leetcode.com/problems/length-of-last-word/description/?envType=study-plan-v2&envId=top-interview-150
+
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var lengthOfLastWord = function(s) {
+    s=s.trim();
+    let word=s.split(" ");
+    return word[word.length-1].length;;
+};
