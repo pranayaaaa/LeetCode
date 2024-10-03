@@ -1,0 +1,23 @@
+https://leetcode.com/problems/to-be-or-not-to-be/description/?envType=study-plan-v2&envId=30-days-of-javascript
+
+
+var expect = function(val) {
+    return{
+        toBe:(value)=>{
+            if(val===value){
+                return true;
+            }
+            else{
+                throw new Error("Not Equal");
+            }
+        },
+        notToBe:(value2)=>{
+            if(val===value2){
+                throw new Error("Equal");
+            }
+            else{
+                return true;
+            }
+        }
+    }
+};
